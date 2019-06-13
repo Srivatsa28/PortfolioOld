@@ -1,0 +1,209 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+/*Global*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+/*Hidden*/
+
+header{
+    background-color: orange;
+    color: white;
+    padding-top: 10px;
+    min-height: 80px;
+    padding-top: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 8px; 
+}
+
+header .current a{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 500px;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: white;
+    padding-top: 30px;
+}
+
+#showcase img:hover{
+    opacity: 0.5;
+}
+
+#showcase h1{
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+}
+
+#showcase p{
+    color: rgb(245, 174, 67);
+    font-size: 20px;
+}
+
+#Boxes{
+    margin-top: 50px;
+    min-height: 500px;
+}
+
+#Boxes h3{
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#Boxes .box{
+    float: left;
+    width: 40%;
+    margin-left: 10px;
+    padding-left: 75px;
+}
+
+#Boxes .box h3{
+    text-align: center
+}
+
+#Boxes .box img{
+    width: 250px;
+    margin-left: 100px;
+}
+
+#Boxes .box img:hover{
+    opacity: 0.5;
+}
+
+#Boxes .box h4{
+    color:orange;
+    font-size: 20px;
+    text-align: center;
+}
+
+#Boxes .box p{
+    color:  rgb(245, 174, 67);
+    font-size: 16px;
+    text-align: center;
+}
+
+
+#contactDetails{
+    background-color: white;
+    min-height: 400px;
+    text-align: center;
+}
+
+#contactDetails h3{
+    color:  rgb(245, 174, 67);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+#contactDetails p{
+    color:  rgb(245, 174, 67);
+     
+}
+
+footer{
+    background-color: orange;
+    color: white;
+    min-height: 50px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 12px;
+}
+
+.ContactBox{
+    font-size: 16px;
+}
+
+.fa-facebook{
+    color: orange;
+}
+
+.fa-twitter{
+    color: orange;
+    margin-left: 15px;
+}
+
+.fa-instagram{
+    color: orange;
+    margin-left: 15px;
+
+}
+
+.fa-quora{
+    color: orange;
+    margin-left: 15px;
+
+}
+
+.fa-facebook:hover{
+    opacity: 0.5;
+}
+
+.fa-twitter:hover{
+    opacity: 0.5;
+}
+
+.fa-instagram:hover{
+    opacity: 0.5;
+}
+
+.fa-quora:hover{
+    opacity: 0.5;;
+}
+
